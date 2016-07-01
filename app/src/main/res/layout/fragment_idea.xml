@@ -1,0 +1,31 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="silive.in.ideartist.Fragments.Idea"
+    android:padding="3dp"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:textAllCaps="true"
+        android:textColor="#000000"
+        android:textSize="30sp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:padding="5dp"
+        android:text="Anyone who sacrifices his/her reality in order to produce something from the infinite realm of creativity is an Ideartist.
+We share such work." />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Close"
+        android:textColor="#000000"
+        android:layout_weight="7"
+        android:layout_gravity="end"
+        android:id="@+id/dialog_close_btn"/>
+
+</LinearLayout>

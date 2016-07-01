@@ -1,0 +1,2 @@
+include ':app', ':guillotinemenu'
+project(':guillotinemenu').projectDir = new File('libs/guillotinemenu/module')

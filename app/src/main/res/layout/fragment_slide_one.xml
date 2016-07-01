@@ -1,0 +1,26 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/intro"
+    tools:context="silive.in.ideartist.Fragments.SlideOne">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="20dp">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="TIRED OF READING LENGTHY BOOKS, ARTICLES, OR ANY KNOWLEDGEABLE CONTENT?"
+            android:textColor="#ffffff"
+            android:textSize="30sp"
+            android:id="@+id/text1"/>
+    </LinearLayout>
+
+</LinearLayout>
+

@@ -1,0 +1,45 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/intro"
+    android:orientation="vertical"
+    tools:context="silive.in.ideartist.Fragments.SlideThree">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="20dp"
+        android:layout_weight="1">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="A MICROCONTENT DISCOVERY SERVICE. TRY IT FOR FREE."
+            android:textColor="#ffffff"
+            android:textSize="30sp"
+            android:id="@+id/text3"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="9">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAllCaps="false"
+            android:textColor="#ffffff"
+            android:textSize="15sp"
+            android:layout_gravity="bottom"
+            android:gravity="end"
+            android:id="@+id/idea"
+            android:padding="3dp"
+            android:text="What is Ideartist?" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

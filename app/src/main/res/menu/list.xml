@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--Bottom Sheet Elements-->
+    <item
+        android:id="@+id/science"
+        android:icon="@drawable/science"
+        android:title="Science and Technology" />
+    <item
+        android:id="@+id/books"
+        android:icon="@drawable/book"
+        android:title="Books" />
+    <item
+        android:id="@+id/philosphy"
+        android:icon="@drawable/philos"
+        android:title="philosophy" />
+    <group android:id="@+id/helpgroup">
+        <item
+            android:id="@+id/help"
+            android:icon="@drawable/help"
+            android:title="Help" />
+    </group>
+
+</menu>
